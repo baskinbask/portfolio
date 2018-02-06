@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +12,12 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="wrapper">
+    <div class="container site-header__container">
 
-      <a class="site-title" href="index.html">Evgeniy Basov</a>
+      <a class="site-title site-logo" href="index.html"><h1>Evgeniy Basov</h1></a>
 
       <nav class="site-nav">
-        <a href="index.html#" class="menu-icon">
+        <a class="menu-icon" href="index.html#">
           <svg viewBox="0 0 18 15">
             <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
             <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
@@ -26,16 +26,16 @@
         </a>
 
         <div class="trigger">
-          <a class="page-link" href="about.html">Обо мне</a>
-          <a class="page-link" href="contacts.html">Контакты</a>
-          <!-- <a class="page-link" href="portfolio.html">Портфолио</a> -->
+          <a class="site-nav__link is-active" href="index.html">Портфолио</a>
+          <a class="site-nav__link" href="about.html">Обо мне</a>
+          <a class="site-nav__link" href="contacts.html">Контакты</a>          
         </div>
       </nav>
     </div>
   </header>
 
   <div class="page-content">
-    <div class="wrapper">
+    <div class="container">
       <div class="filter-container">
         <div class="filter" data-filter="all">All</div>
         <div class="filter" data-filter=".fix">Fixed</div>
@@ -47,7 +47,7 @@
         
         <li class="mix portfolio-item filtr-item adap">
           <a data-popup-open="popup-20" href="index.html#" class="ehover1v2 hover">
-            <img class="lazy" data-src="img/ski/ski-prokat.png" src="img/load.svg" alt="Прокат горных лыж и сноубордов">
+            <img class="lazy" data-src="img/ski/ski-prokat.jpg" src="img/load.svg" alt="Прокат горных лыж и сноубордов">
             <div class="overlay">
               <div class="portfolio-item__title">
                 <span class="portfolio-item__span">
@@ -58,10 +58,11 @@
           </a>
           <div class="popup" data-popup="popup-20">
             <div class="popup-wrapper">
-              <h2 class="title-fira">Прокат горных лыж и сноубордов. Snow-prokat.info</h2>
+              <h2 class="title-fira">Прокат горных лыж и сноубордов 'Snow-prokat.info'</h2>
               <p>https://snow-prokat.info</p>
             </div>
-            <img class="popup-img lazy" src="img/ski/ski-prokat.png, ski-prokat_mobile_index.png" alt="Прокат горных лыж и сноубордов">
+            <img class="popup-img lazy" src="img/ski/ski-prokat.jpg" alt="Прокат горных лыж и сноубордов">
+            <img src="img/ski/ski-prokat_mobile_index.jpg" alt="">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
             <a class="popup-close b-close" href="index.html#">
               <svg viewbox="0 0 40 40">
@@ -73,7 +74,7 @@
         
          <li class="mix portfolio-item filtr-item adap">
           <a data-popup-open="popup-11" href="index.html#" class="ehover1v2 hover">
-            <img class="lazy" data-src="img/mining/mining_index.png" src="img/load.svg" alt="ASIC Minings">
+            <img class="lazy" data-src="img/mining/mining_index.jpg" src="img/load.svg" alt="ASIC Minings">
             <div class="overlay">
               <div class="portfolio-item__title">
                 <span class="portfolio-item__span">
@@ -87,7 +88,7 @@
               <h2 class="title-fira">ASIC Minings</h2>
               <p>Поставки и продажа оборудования для майнинга</p>
             </div>
-            <img class="popup-img lazy" src="img/mining/mining_index.png" alt="ASIC Minings">
+            <img class="popup-img lazy" src="img/mining/mining_index.jpg" alt="ASIC Minings">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
             <a class="popup-close b-close" href="index.html#">
               <svg viewbox="0 0 40 40">
@@ -99,7 +100,7 @@
         
         <li class="mix portfolio-item filtr-item resp">
           <a data-popup-open="popup-12" href="index.html#" class="ehover1v2 hover">
-            <img class="lazy" data-src="img/compass/compass_dist_index.png" src="img/load.svg" alt="Агенство Компас">
+            <img class="lazy" data-src="img/compass/compass_dist_index.jpg" src="img/load.svg" alt="Агенство Компас">
             <div class="overlay">
               <div class="portfolio-item__title">
                 <span class="portfolio-item__span">
@@ -113,7 +114,7 @@
               <h2 class="title-fira">Агенство Compass</h2>
               <p>Переезд и недвижимость в Болгарии</p>
             </div>
-            <img class="popup-img lazy" src="img/compass/compass_dist_index.png" alt="Агенство Компас">
+            <img class="popup-img lazy" src="img/compass/compass_dist_index.jpg" alt="Агенство Компас">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
             <a class="popup-close b-close" href="index.html#">
               <svg viewbox="0 0 40 40">
@@ -163,7 +164,7 @@
           <div class="popup" data-popup="popup-14">
             <div class="popup-wrapper">
               <h2 class="title-fira">Inbase</h2>
-              <p> inbase|content agency <br>http://inbase.me/</p>
+              <p> inbase|content agency <br> http://inbase.me </p>
             </div>
             <img class="popup-img lazy" src="img/inbase/inbase--small.jpg" alt="Inbase">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
@@ -189,7 +190,7 @@
           <div class="popup" data-popup="popup-15">
             <div class="popup-wrapper">
               <h2 class="title-fira">Eat&Go</h2>
-              <p>Eat&Go! — удобный и быстрый завтрак или перекус. Продукты готовы к употреблению и соответствуют всем представлениям о правильном питании.<br> http://eatgo.life/</p>
+              <p>Eat&Go! — удобный и быстрый завтрак или перекус.<br>Продукты готовы к употреблению и соответствуют всем представлениям о правильном питании.<br> http://eatgo.life/</p>
             </div>
             <img class="popup-img lazy" src="img/eat/eat.jpg" alt="Eat&Go">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
@@ -230,7 +231,7 @@
 
         <li class="mix portfolio-item filtr-item resp">
           <a data-popup-open="popup-3" href="index.html#" class="ehover1v2 hover">
-            <img class="lazy" data-src="img/providance/new_providance_dist_index.png" src="img/load.svg" alt="New Providance">
+            <img class="lazy" data-src="img/providance/new_providance_dist_index.jpg" src="img/load.svg" alt="New Providance">
             <div class="overlay">
               <div class="portfolio-item__title">
                 <span class="portfolio-item__span">
@@ -244,7 +245,7 @@
               <h2 class="title-fira">New Providance</h2>
               <p> Great schedule app with amazing UI Kit</p>
             </div>
-            <img class="popup-img lazy" src="img/providance/new_providance_dist_index.png" alt="New Providance">
+            <img class="popup-img lazy" src="img/providance/new_providance_dist_index.jpg" alt="New Providance">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
             <a class="popup-close b-close" href="index.html#">
               <svg viewbox="0 0 40 40">
@@ -256,7 +257,7 @@
 
          <li class="mix portfolio-item filtr-item fix">
           <a data-popup-open="popup-1" href="index.html#" class="ehover1v2 hover">
-            <img class="lazy" data-src="img/nerds/nerds_dist_index.png" src="img/load.svg" alt="Студия Nerds">
+            <img class="lazy" data-src="img/nerds/nerds_dist_index.jpg" src="img/load.svg" alt="Студия Nerds">
             <div class="overlay">
               <div class="portfolio-item__title">
                 <span class="portfolio-item__span">
@@ -270,7 +271,7 @@
               <h2 class="title-fira">Студия Nerds</h2>
               <p>Сайт студии дизайна в Краснодаре</p>
             </div>
-            <img class="popup-img lazy" src="img/nerds/nerds_dist_index.png" alt="Студия Nerds">
+            <img class="popup-img lazy" src="img/nerds/nerds_dist_index.jpg" alt="Студия Nerds">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
             <a class="popup-close b-close" href="index.html#">
               <svg viewbox="0 0 40 40">
@@ -308,7 +309,7 @@
         
         <li class="mix portfolio-item filtr-item fix">
           <a data-popup-open="popup-4" href="index.html#" class="ehover1v2 hover">
-            <img class="lazy" data-src="img/yaroslavl/yaroslavl_flats_index.png" src="img/load.svg" alt="Квартиры в новостройке">
+            <img class="lazy" data-src="img/yaroslavl/yaroslavl_flats_index.jpg" src="img/load.svg" alt="Квартиры в новостройке">
             <div class="overlay">
               <div class="portfolio-item__title">
                 <span class="portfolio-item__span">
@@ -322,7 +323,7 @@
               <h2 class="title-fira">Жилой дом в Ярославле</h2>
               <p> Квартиры в новостройке. Landing page.</p>
             </div>
-            <img class="popup-img lazy" src="img/yaroslavl/yaroslavl_flats_index.png" alt="Квартиры в новостройке">
+            <img class="popup-img lazy" src="img/yaroslavl/yaroslavl_flats_index.jpg" alt="Квартиры в новостройке">
             <a class="b-close close-text" href="index.html#">Закрыть</a>
             <a class="popup-close b-close" href="index.html#">
               <svg viewbox="0 0 40 40">
@@ -337,11 +338,11 @@
   </div>
 
   <footer class="site-footer">
-    <div class="wrapper">
+    <div class="container">
       <h2 class="footer-heading">Evgeniy Basov</h2>
       <div class="footer-col-wrapper">
         <div class="footer-col  footer-col-1">
-          <a href="mailto:baskin.robinz@gmail.com">baskin.robinz@gmail.com</a>
+          <a class="footer-email" href="mailto:baskin.robinz@gmail.com">baskin.robinz@gmail.com</a>
         </div>
       </div>
     </div>
