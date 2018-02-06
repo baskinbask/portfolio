@@ -123,6 +123,7 @@ pre>code {
 .site-title {
   font-size: 26px;
   line-height: 56px;
+  color: #6A6581;
   float: left;
   transition: all 0.3s ease;
 }
@@ -219,11 +220,6 @@ pre>code {
     margin-bottom: 15px
 }
 
-.contact-list,.social-media-list {
-    list-style: none;
-    margin-left: 0
-}
-
 .footer-col-wrapper {
     font-size: 15px;
     color: #828282;
@@ -275,32 +271,6 @@ pre>code {
     padding: 30px 0
 }
 
-.page-heading {
-    font-size: 20px
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none
-}
-
-.post-list>li {
-    margin-bottom: 30px
-}
-
-.post-meta {
-    font-size: 14px;
-    color: #828282
-}
-
-.post-link {
-    display: block;
-    font-size: 24px
-}
-
-.post-header {
-    margin-bottom: 30px
-}
 
 .post-title {
     font-size: 42px;
@@ -312,40 +282,6 @@ pre>code {
 @media screen and (max-width: 800px) {
     .post-title {
         font-size:36px
-    }
-}
-
-.post-content {
-    margin-bottom: 30px
-}
-
-.post-content h2 {
-    font-size: 32px
-}
-
-@media screen and (max-width: 800px) {
-    .post-content h2 {
-        font-size:28px
-    }
-}
-
-.post-content h3 {
-    font-size: 26px
-}
-
-@media screen and (max-width: 800px) {
-    .post-content h3 {
-        font-size:22px
-    }
-}
-
-.post-content h4 {
-    font-size: 20px
-}
-
-@media screen and (max-width: 800px) {
-    .post-content h4 {
-        font-size:18px
     }
 }
 
