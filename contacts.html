@@ -40,13 +40,13 @@
           <h2 class="post-title">Контакты</h2>
           <form class="contacts-form" action="https://formspree.io/baskin.robinz@gmail.com" method="POST">
             <label>Имя:
-              <input class="contacts-input name" type="text" name="name" placeholder="Введите имя" autofocus size="35">
+              <input class="contacts-input name" type="text" name="name" placeholder="Введите имя" autofocus size="35" required>
             </label>
             <label>E-mail:
-              <input class="contacts-input email" type="email" name="_replyto" placeholder="Введите email" size="35">
+              <input class="contacts-input email" type="email" name="_replyto" placeholder="Введите email" size="35" required>
             </label>
             <label>Сообщение:
-            <textarea class="contacts-input msg" name="message" rows="15" cols="50" placeholder="Введите текст"></textarea>
+            <textarea class="contacts-input msg" name="message" rows="15" cols="50" placeholder="Введите текст" required></textarea>
             <input class="contacts-input btn" type="submit" value="Отправить">
           </form>
         </div>
