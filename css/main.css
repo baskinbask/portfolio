@@ -61,6 +61,7 @@ a {
 .site-header__container {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .container:after,.footer-col-wrapper:after,.portfolio-list:after {
@@ -70,8 +71,9 @@ a {
 }
 
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  background: #e9eff2;
+  border-top: 3px solid var(--main-color);
+  /*border-bottom: 1px solid var(--main-color);*/
   min-height: 56px
 }
 
@@ -105,7 +107,7 @@ h1 {
 }
 
 .site-nav__link {
-    color: #111;
+    color: var(--main-color);
     line-height: 1.5;
     padding: 8px;
     transition: 0.3s;
@@ -119,11 +121,11 @@ h1 {
 } 
 
 .site-nav__link:hover {
-    background-color: #e6e6e6;
+    background-color: #DAD5E0;
 }
 
 .site-nav__link.is-active:hover {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 576px) {
@@ -174,7 +176,7 @@ h1 {
     position: absolute;
     margin-top: auto;
     width: 100%;
-    border-top: 2px solid #e8e8e8;
+    border-top: 1px solid var(--main-color);
     padding: 30px 0;
     background: #e9eff2;
 }
@@ -207,7 +209,10 @@ h1 {
   font-weight: 700;
   vertical-align: middle;  
   color: var(--main-color);
-  
+}
+
+.footer-btn--home:hover {
+  color: #6D417B;
 }
 
 @media screen and (max-width: 576px) {
@@ -219,8 +224,10 @@ h1 {
 }
 
 .page-content {
-    padding: 34px 0;
-    min-height: 71vh;
+  background: url(../img/BackgroundHd.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  padding: 34px 0;
+  min-height: 71vh;
 }
 
 
@@ -372,7 +379,6 @@ h1 {
 
 .title-fira {
   font-family: "Fira Mono", Verdana, sans-serif;
-  letter-spacing: 1.1em;
   margin-bottom: 20px;
 }
 
