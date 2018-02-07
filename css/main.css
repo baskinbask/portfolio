@@ -181,7 +181,7 @@ h1 {
 
 .footer-heading {
     font-size: 20px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .footer-email:hover {
@@ -190,20 +190,24 @@ h1 {
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
     color: #828282;
-    margin-left: -15px
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: 15px;
-    padding-left: 15px
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer-col-1 {
     width: -webkit-calc(35% - (30px / 2));
     width: calc(35% - (30px / 2));
+    margin-right: auto;
+}
+
+.footer-btn--home {
+  font-size: 25px;
+  font-weight: 700;
+  vertical-align: middle;  
+  color: var(--main-color);
+  
 }
 
 @media screen and (max-width: 576px) {
