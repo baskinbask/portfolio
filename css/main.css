@@ -40,12 +40,16 @@ li>ul,li>ol {
     margin-bottom: 0;
 }
 
-
-
 a {
   color: #6A6A6A;
   text-decoration: none;
 }
+
+a[href^="http"] {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 
 
 .container {
@@ -247,7 +251,8 @@ h1 {
 
 .portfolio-item {
     display: none;
-    vertical-align: top;
+    vertical-align: middle;
+    text-align: center;    
     width: 48%;
     min-height: 290px;
     margin-left: 2%;
