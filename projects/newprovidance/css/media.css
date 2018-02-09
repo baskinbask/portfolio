@@ -1,0 +1,359 @@
+@media screen and (max-width: 1200px) {
+	 
+	 /*Header*/
+
+	 .menu .menu__btn {
+	 	padding: 5px 3px;
+	 }
+	 .menu__logo a {
+	 	margin-left: -35px;
+	 }
+	 .header__iphone {
+	 	left: 33%;
+	 }
+
+	 /*Protect*/
+	
+	.protect {
+	 	padding-bottom: 80px;
+	}
+
+	/*Interface*/
+
+	.interface__btn {
+		margin-left: 4%;
+	}
+
+	.subscribe__btn {
+		margin-left: 14.5%;
+	}
+
+	/*Plans*/
+
+	.plans__cards .cards__item {
+		width: 25vw;
+	}
+	.plans__cards .cards__item .active {
+		width: 27vw;
+	}
+
+	/*footer*/
+
+	.footer .links__list {
+		margin-right: 50px;
+	}
+	.footer .links__item {
+		font-size: 1.2rem;
+	}
+}
+@media screen and (max-width: 992px) {
+	 
+	 /*Header*/
+
+	  .menu__logo a {
+	 	margin-left: 0px;
+	 }
+	 .header__btn {
+    	margin-left: 38%;
+    }
+	 .header__iphone {
+	 	left: 27%;
+	 }
+
+	 /*Description*/
+
+	 .desc__item {
+	 	margin: 0;
+	 }
+
+	 /*Protect*/
+
+	 .protect {
+	 	padding: 0 0 80px;
+	 }
+	 .protect .protect__btn1 i {
+    	padding-left: 10px;
+    }
+
+    /*World*/
+
+    .dots {
+    	top: 18%;
+    }
+
+ 	/*Interface*/
+
+	.interface__input {
+		font-size: 1.1rem;
+	}
+ 	.interface__btn {
+		margin-left: 0;
+		padding: 10px 15px;
+	}
+
+	/*Slider*/
+
+	.slider_item .slider_stars,.slider_item .slider_userpic { 
+    	margin-left: 34%;
+    }
+
+    /*Plans*/
+
+    .plans__desc {
+    	text-align: center;
+    }
+    .plans__desc h2 {
+    	text-align: center;    	
+    }
+    .plans__toggle {
+    	margin-left: auto;
+    	margin-right: auto;    	
+    }
+    .plans__cards {
+    	float: none;
+    	margin: 75px 0 150px 0px;
+    }
+    .plans__cards .cards__item {
+    	width: 50%;
+    }
+
+    /*Subscribe*/
+	
+	#fourth {
+		padding-top: 70px;
+	}
+	.interface .title1, .interface .title2 {
+		margin-bottom: 20px;
+	}
+    .subscribe__btn {
+    	margin-left: 5.5%;
+    }
+
+    /*Footer*/
+
+	.footer__links {
+		margin-top: 50px;
+	}
+    .footer:after {
+    	margin-top: 50px;
+   	}
+
+}
+@media screen and (max-width: 768px) {
+
+	/*Header*/
+	
+	.menu__logo {
+	    margin-left: 32%;
+	}
+	.menu .menu__btn {
+		margin-right: 20px;
+	}
+
+	/*Description*/
+	
+	#first {
+		padding-top: 70px;
+	}
+	.desc__item {
+		margin-top: 50px;
+	}
+
+	/*Protect*/
+
+	#second {
+		background: url(../img/iPhone6_bg.png) 0 55px no-repeat;
+		background-size: 46vw;
+	}
+	.protect {
+		padding-top: 100px;		
+	}
+	.protect h2 {
+		text-align: right;
+	}
+	.protect .protect__btn1,
+	.protect .protect__btn2 {
+		font-size: 1.3rem;
+		padding: 10px;
+	}
+
+	/*Slider*/
+
+	.slider_item .slider_stars,.slider_item .slider_userpic { 
+    		margin-left: 32%;
+    }
+
+    /*Interface*/
+
+    #fourth {
+		background-position: 0 30px;
+	}
+
+    .interface .title1:after {
+    	margin-top: 10px;
+    }
+    .interface__input {
+		font-size: 1.4rem;
+		width: 95%;
+		text-align: center;		
+	}
+	.pseudo {
+		margin-top: 42px;
+		display: block;
+		width: 100%;
+		height: 1px;
+		opacity: .5;
+		background: #ddd;
+		content: '';
+	}
+
+ 	.interface__btn {
+		width: 95%;
+		margin-left: 3%;
+		text-align: center;
+	}
+
+	/*Subscribe*/
+
+   .subscribe__input {
+		font-size: 1.4rem;
+		width: 95%;
+		text-align: center;
+	}
+	.subscribe__btn {
+		width: 95%;
+		margin-left: 3%;
+		text-align: center;
+	}
+
+}
+@media screen and (max-width: 576px) {
+	
+	/*Header*/
+
+	.menu__logo {
+		margin-left: 28%;
+	}
+	.header__btn {
+		margin-left: 33%;
+	}
+	.header__iphone {
+		left: 20%
+	}
+	.menu__btn {
+		display: none;		
+	}
+
+	/*Protect*/
+
+	.protect {
+		padding-top: 0;
+	}
+
+
+	/*Slider*/
+
+	.slider_item .slider_stars,.slider_item .slider_userpic { 
+    	margin-left: 29%;
+    }
+
+    /*Sub-menu*/
+
+    .wrapper__sub-menu {
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+	
+	h1 {
+		font-size: 5.4rem;
+	}
+
+	h2 {
+		font-size: 3.7rem;
+	}
+
+	/*Header*/
+
+	.menu__logo {
+		margin-left: 20%;
+	}
+	.header__btn {
+		margin-left: 29%;
+	}
+	.header__iphone {
+		left: 10%
+	}
+
+	/*Protect*/
+
+	#second {
+		padding-top: 70px;
+	}
+
+	/*Interface*/
+
+    #fourth {
+		background-position: 0 50px;
+	}
+	.interface .interface__btn i {
+		padding-left: 5px;
+	}
+
+	/*Slider*/
+
+	.slider_item .slider_stars,.slider_item .slider_userpic { 
+    	margin-left: 20%;
+    }
+
+	/*Plans*/
+
+	.plans__cards .cards__item {
+		width: 95%;
+		margin-left: 15px;
+	}
+	
+	/*Footer*/
+
+	.footer .links__list {
+		margin-right: 30px;
+	}
+
+}
+
+@media screen and (max-width: 370px) {
+	
+	/*Header*/
+
+	.menu__logo {
+		margin-left: 17%;
+	}
+	.header__btn {
+		margin-left: 25%;
+	}
+
+	/*Interface*/
+
+    #fourth {
+		background-position: 0 100px;
+	}
+
+	/*Plans*/
+
+	.plans__cards .cards__item {
+		margin-left: 5px;
+	}
+
+	/*Slider*/
+
+	.slider_item .slider_stars,.slider_item .slider_userpic { 
+    	margin-left: 13%;
+    }
+
+	/*Footer*/
+
+	.footer .links__list {
+		margin-right: 10px;
+	}
+}

@@ -1,0 +1,455 @@
+@media screen and (max-width: 1200px) {
+
+	/*Главная*/
+
+	.contacts {
+		float: right;
+	}
+
+	.contacts__icon {
+		margin: 25px 0 0 -35px;
+	}
+
+	.contacts__phone {
+		float: left;
+	}
+	
+	.rewiews__card {
+		width: 80%;
+	}
+
+	.card__arrow {
+		margin-top: 120px;
+	}
+	
+	.footer__copy, .footer__privicy {
+		letter-spacing: 0;
+		font-size: 0.8rem;
+	}
+
+
+ /*Недвижимость и переезд*/
+
+	.card1_img {
+		width: 57%;
+	}
+
+	.moving__card1, .moving__card2 {
+		padding: 0;
+		margin: 0 8%; 
+	}
+
+	.moving__card2 {
+		padding: 30px 0 60px 0;
+	}
+
+	.card2_img {
+		padding-right: 0;
+	}
+
+
+	/*О компании*/
+
+
+	.card__promo {
+    	padding: 0 40px;
+	}
+
+	.partners__card {
+		min-height: 67vh;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+	/*Главная*/
+
+	.adv__item {
+		margin-top: 20px;
+	}
+
+   	.property__content {
+   		 margin-top: 50px;
+	}
+
+	.property__text_title {
+    	margin-top: 35px;
+   	}
+	
+   	.circles__main {
+   		top: -27%;
+   	}
+
+   	.proprty__text_icon {
+	    position: absolute;
+	    top: 42%;
+	}
+
+	.circles__sub {
+    	top: -14%;
+    }
+
+   	.card__vk, .card__location {
+		float: none;	
+	}
+
+	.card__arrow {
+		margin-top: 140px;
+	}
+
+	.rewiews__photo {
+    	position: absolute;
+	    left: 41%;
+	    top: 0;
+	}
+	
+	.rewiews__card {
+	    width: 100%;
+	    margin: 0;
+	    margin-top: 70px;
+	    margin-bottom: 30px;
+	    padding: 90px 37px 40px 37px;
+	    text-align: center;
+	}
+
+	.card__name {
+		float: none;
+		margin: 0;
+	}
+
+	/*Недвижимость и переезд*/
+
+	#first-about, #first-moving, #first-contacts {
+		background-color: #fff;
+		padding-top: 0;
+	}
+
+	.about, .moving, .contacts-page {
+	  	box-shadow: none;
+	 	margin-top: 0;
+	}
+
+	.moving__title {
+		padding: 50px 0;
+	}
+
+	.moving__card1, .moving__card2 {
+		margin: 0; 
+	}
+
+
+	/*О компании*/
+
+	.card__description {
+    	padding: 40px 10px 60px 10px;
+   	}
+
+	.card__ready {
+		display: none;
+	}
+	
+	.card__ready_ghost {
+		display: block;
+		position: absolute;
+	    width: 100%;
+	    z-index: 1;
+	    bottom: 250px;
+	    margin: 0;
+	}
+	
+	.card__promo {
+    	padding: 0;
+    	margin-bottom: 80px;
+	}
+
+	.partners__title {
+		margin-top: 90px;
+	}
+
+	.partners__card {
+		width: 100%;
+		margin: 0;
+		margin: 50px 0;
+	}
+
+	.pereferia__arrow {
+    	position: absolute;
+    	bottom: -240%;
+    }
+
+}	
+
+
+
+@media screen and (max-width: 768px) {
+
+/*Главная*/
+
+	
+	.footer__copy {
+		padding-left: 25%;
+	}
+
+
+	h1 {
+		font-size: 4.267rem;
+	}
+
+	.header .title,  {
+		font-size: 2.933rem;
+	}
+
+
+	.ask__input {
+		width: 60%;
+		margin: 0 auto 10px;
+	}
+
+	.ask__btn {
+		width: 60%;
+		margin: 20px auto 0px;
+	}
+
+
+/*О компании*/
+
+
+	.promo_item1, .promo_item2, .promo_item3 {
+		float: none;
+	}
+
+	.partners__card {
+		margin: 50px 0 0;
+		min-height: 46vh;
+	}
+
+
+/*Контакты*/
+
+	.contacts-page__card {
+   		padding: 0 0 10%;
+   	    margin: 0 auto;
+        width: 50%;
+    }
+
+    .contacts-page__form {
+    	width: 70%;
+    	margin: 0 auto;
+    }
+
+    .contacts-page__input, .contacts-page__btn {
+    	width: 100%;
+    }
+
+
+/*Modal*/
+
+	.contacts__modal_title span {
+		font-size: 1.4rem;
+	}
+
+	.contacts__modal_title {
+		font-size: 1rem;
+	}
+
+	.box-modal {
+		width: 50vw;
+	}
+
+}
+	
+@media screen and (max-width: 632px) {
+
+	/*Главная*/
+
+	
+	h1 {
+		font-size: 3.133rem;
+	}
+
+	h2 {
+		font-size: 2.2rem;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+	}
+	
+	.header .title {
+		font-size: 2.3rem;
+	}
+
+	.contacts__icon, .contacts__phone {
+		display: none;
+	}
+
+	.circles__sub {
+	    top: -12%;
+	}
+
+	.circles__main {
+	    top: -25%;
+	}
+	
+	.proprty__text_icon {
+	    top: 49%;
+	}
+
+	.card__arrow {
+		display: none;
+	}
+
+	.rewiews__photo {
+    	left: 38%;
+	}
+
+	
+
+	
+	/*Недвижимость и переезд*/
+
+	.moving__card1, .moving__card2 {
+		text-align: center;
+		padding-bottom: 0;
+	}
+
+	.card1_img, .card2_img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.moving__card1 p, .moving__card2 p {
+		padding: 0;
+		padding-top: 30px;
+		width: 100%; 
+	}
+
+
+	/*О компании*/
+
+	.partners__card {
+		min-height: 50vh;
+	}
+	
+}
+
+
+@media screen and (max-width: 540px) {
+
+	/*Главная*/
+
+	.circles__sub {
+	    top: -12%;
+	}
+	.circles__main {
+		top: -21%;
+	}
+
+	.proprty__text_icon {
+	    top: 47%;
+    }
+
+    .ask__input, .ask__btn {
+		width: 100%;
+	}
+
+	.footer__copy {
+		padding-left: 15%;
+	}
+
+  /*Недвижимость и переезд*/
+
+	.about__h2 {
+		font-size: 2.5rem;
+		letter-spacing: .1em;
+	}
+
+
+
+	/*О компании*/
+
+	.partners__card {
+		min-height: 57vh;
+	}
+
+	.pereferia__arrow {
+	    position: absolute;
+	    bottom: -380%;
+	}
+
+	
+/*Контакты  */
+
+	
+    .contacts-page__form {
+    	width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+	
+/*Главная*/
+
+
+	h1 {
+		font-size: 2.5rem;
+	}
+	
+	.header .title {
+		font-size: 1.5rem;
+	}
+	
+	h2 {
+		font-size: 1.9rem;
+	}
+	
+	h3 {
+		font-size: 1.6rem;
+	}
+
+	.circles__sub {
+		display: none;
+	}
+
+	.circles__main {
+		top: -18%;
+	}
+
+	.proprty__text_icon {
+		top: 49%;
+	}
+
+	.rewiews__photo {
+    	position: absolute;
+	    left: 32%;
+	    top: 0;
+	}
+
+
+/*Недвижимость и переезд*/
+
+	.about__h2 {
+		font-size: 2rem;
+		letter-spacing: .1em;
+	}
+
+	.card1_img img, .card2_img img {
+		width: 95%;
+	}
+
+
+
+/*О компании*/
+
+	.partners__card {
+		min-height: 69vh;
+	}
+
+
+
+}
