@@ -1,0 +1,91 @@
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .header-phone{
+        padding: 30px 0;
+    }
+    .header-text{
+        margin: 20px 0 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    .header-phone{
+        padding: 30px 0;
+        text-align: center;
+    }
+    
+    .header-title{
+        font-size: 36px;
+    }
+    
+    .header-title span{
+        font-size: 24px;
+    }
+    
+    .header-text{
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) { 
+    .header-title{
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1279px) { 
+    .section-2{
+        background: #f2f2f2;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    .product-block{
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    .section-3{
+      background: #0e171e;
+        height: 1520px;
+    }
+    .advantages{
+        padding: 50px 0 0;;
+    }
+    .advantages-col{
+        width: 100%;
+        margin: 40px 0 0;
+    }
+    .top{
+        margin: 0;
+        background: #0e171e;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) { 
+    .section-3{
+      background: #0e171e;
+        height: 1620px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    .map-block{
+        position: relative;
+        bottom: auto;
+        margin: 30px auto;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) { 
+    .section-2{
+    background-position: 100% top;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1679px) { 
+    .section-2{
+    background-position: 100% top;
+    }
+}

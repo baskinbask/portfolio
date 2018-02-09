@@ -1,0 +1,28 @@
+.loaderArea {
+  background: #0e181f;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom:0;
+  z-index: 100000;
+}
+
+.loader {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+}
+ 
+.preloader_svg {
+position: absolute;
+width: 100px;
+height: 100px;
+background: url(../img/preloader.svg) center center no-repeat;
+background-size:100px;
+}
