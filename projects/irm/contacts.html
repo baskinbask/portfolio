@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+	<title>Подразделение ~</title>
 	<meta name="description" content="">
-	<link rel="icon" href="favicon.png" sizes="16x16" type="image/png">	
+	<link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
@@ -19,7 +19,9 @@
 		<header class="site-header">
 	    <div class="site-header--wrapper">
 		    <div class="site-header__logo">
-		      <img class="wow fadeIn" src="img/logo_blue.png" width="100" height="100" alt="Главная"/>		    	
+		    	<a href="index.html" title="Главная">
+		      	<img class="wow fadeIn" src="img/logo_blue.png" width="100" height="100" alt="Главная"/>
+		    	</a>
 		    </div>
 		    <div class="site-header__title wow fadeIn">
 		      <p class="site-header__subtitle">Московский государственный университет имени М.В.Ломоносова</p>
@@ -28,7 +30,7 @@
 			</div>
 	    <nav class="main-menu">
 	      <ul class="main-menu__list">
-	      	<li class="menu__item is-active"><a>Главная</a></li>
+	      	<li class="menu__item"><a href="index.html">Главная</a></li>
 					<li class="menu__item sub-menu"><a href="subdivisions.html">Подразделения</a>
 						<ul class="sub-menu__list wow fadeIn">
 							<li class="menu__item"><a href="cryo.html">Криохранилище</a></li>
@@ -51,12 +53,33 @@
 					</li>
 					<li class="menu__item"><a href="#">Достижения</a></li>
 					<li class="menu__item"><a href="#">Инструментарий</a></li>
-					<li class="menu__item"><a href="contacts.html">Контакты</a></li>
+					<li class="menu__item is-active"><a href="contacts.html">Контакты</a></li>
 				</ul>
 	    </nav>
 	  </header>
-	  <section class="main-content">
-	  	
+	  <section class="main-content contacts">
+	  	<h2 class="contacts__title">Наши контакты</h2>
+  	 		<div class="contacts--wrapper">
+					<div class="contacts__adress">
+						<p>Адрес для корреспонденции</p>
+						<p>Московский государственный университет имени М.В.Ломоносова</p>
+						<p>Институт регенеративной медицины</p>
+						<p>119192, Ломоносовский пр-т., д. 27, корп. 10.</p>
+						<p>http://mc.msu.ru/contacts/</p>
+						<p>E-mail: info@irm.msu.ru</p><br>
+						<p>Подразделения:</p>
+						<p>1) Лаборатория генно-клеточной терапии</p>
+						<p>Тел.: +7 (495) 531-27-77</p>
+						<p>Доб. 3153-3156</p>
+						<p>2) Криохранилище</p>
+						<p>3) Лаборатория молекулярной эндокринологии</p>
+						<p>4) Производственный участок</p>
+					</div>
+					<div class="contacts__map">
+						<p>Как  нам добраться:</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2248.393458583247!2d37.51548715372008!3d55.6995323029918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54c5d339b4d7d%3A0xdb915a511df565d0!2z0JvQvtC80L7QvdC-0YHQvtCy0YHQutC40Lkg0L_RgC4sIDI3INC60L7RgNC_0YPRgSAxMCwg0JzQvtGB0LrQstCwLCAxMTkxOTI!5e0!3m2!1sru!2sru!4v1519155544032" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  			</div>
+	  		</div>	  		
 	  </section>
 	  <footer class="footer">
 	  	<div class="footer__col footer__col_left">
@@ -74,7 +97,7 @@
 	  	</div>	  	
 	  </footer>
 	</div>
-	<script src="js/vendor.js"> </script>
+  	<script src="js/vendor.js"> </script>
   <script src="js/main.min.js"></script>
 
 </body>
