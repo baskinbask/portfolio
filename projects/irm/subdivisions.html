@@ -9,10 +9,11 @@
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- <link rel="stylesheet" href="css/main.css"> -->
-	<link rel="stylesheet" href="css/mine.css">
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<!-- <link rel="stylesheet" href="css/slick.css"> -->
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="container">
@@ -20,7 +21,7 @@
 	    <div class="site-header--wrapper">
 		    <div class="site-header__logo">
 		    	<a href="index.html" title="Главная">
-		      	<img class="wow fadeIn" src="img/logo_msu.jpg" width="100" height="100" alt="Главная"/>
+		      	<img class="wow fadeIn" src="img/logo_blue.png" width="100" height="100" alt="Главная"/>
 		    	</a>
 		    </div>
 		    <div class="site-header__title wow fadeIn">
@@ -39,12 +40,12 @@
 							<li class="menu__item"><a href="subdiv1.html">Подразделение 4</a></li>
 						</ul>
 					</li>
-					<li class="menu__item sub-menu"><a href="#">Сотрудники</a>
+					<li class="menu__item sub-menu"><a href="employees.html">Сотрудники</a>
 						<!-- <ul class="sub-menu__list">
 							<li class="menu__item"><a href="#">Проекты ИРМ</a></li>
 						</ul> -->
 					</li>
-					<li class="menu__item sub-menu"><a href="#">Проекты</a></li>
+					<li class="menu__item sub-menu"><a href="projects.html">Проекты</a></li>
 					<li class="menu__item sub-menu"><a href="#">Публикации</a>
 						<!-- <ul class="sub-menu__list">
 							<li class="menu__item"><a href="#">Публикации ИРМ</a></li>
@@ -112,15 +113,23 @@
 	  	</div>
 	  </section>
 	  <footer class="footer">
-	  	<span class="copyright">Copyright &copy; 2018,
-	  		<a href="index.html">Институт регенеративной медицины</a>
-	  	</span>
-	  	<a class="pass__ico" href="#"><img src="img/lock25x25.png"/></a>
+	  	<div class="footer__col footer__col_left">
+	  		<ul class="footer__social">
+		  		<li class="social__item twit"><a href="#" title="twitter"></a></li>
+		  		<li class="social__item vk" ><a href="#" title="vk"></a></li>
+		  		<li class="social__item fb"><a href="#" title="facebook"></a></li>
+		  	</ul>
+		  	<span class="copyright">Copyright &copy; 2018,
+		  		<a href="index.html">Институт регенеративной медицины</a>
+		  	</span>
+	  	</div>	  	
+	  	<div class="footer__col footer__col_right">
+		  	<a class="pass__ico" href="#"><img src="img/lock25x25.png" width="20" height="20" /></a>	
+	  	</div>	  	
 	  </footer>
 	</div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="js/wow.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/vendor.js"> </script>  
+  <script src="js/main.min.js"></script>
 
 </body>
 </html>
